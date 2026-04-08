@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Three Star Media</title>
+    <!-- Stylesheet linked from css folder -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!--  SITE HEADER Logo | Navigation | Search form   -->
+    <header class="top-bar">
+      <!-- Brand logo with gold background highlight -->
+      <div class="logo-block">
+        <img src="assets/images/logo.png" alt="Three Star Media" />
+      </div>
+      <!-- ol used here because nav order is meaningful -->
+      <nav class="main-menu" aria-label="Site navigation">
+        <ol class="menu-items">
+          <li><a href="#banner">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#team">Our Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ol>
+      </nav>
+      <!-- Search uses a proper form with a visually hidden label -->
+      <form class="header-search" action="#" method="get">
+        <label for="site-search" class="sr-only">Search</label>
+        <input
+          type="search"
+          id="site-search"
+          name="q"
+          placeholder="Search..."
+        />
+        <button type="submit">&#128269;</button>
+      </form>
+    </header>
+    <main>
+      <!--    BANNER / HERO  Background image set via CSS -->
+      <section id="banner" class="banner">
+        <div class="banner-content">
+          <h1>Welcome to Three Star Media</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+            rerum voluptas nesciunt quam nostrum similique nihil laboriosam
+            provident neque.
+          </p>
+          <a href="#contact" class="action-btn">Connect with us &#9658;</a>
+        </div>
+      </section>
+
+      <!--    ABOUT US Two child sections sit side by side   -->
+      <section id="about" class="about-wrapper">
+        <!-- Left section: office photo -->
+        <section class="about-left" aria-label="About us photo">
+          <img
+            src="assets/images/about-us.jpg"
+            alt="Modern office with a ping pong table"
+          />
+        </section>
+        <!-- Right section: company description -->
+        <section class="about-right" aria-label="About us description">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero unde
+            repellendus exercitationem asperiores consequatur recusandae.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi velit
+            ipsam atque accusamus nihil laudantium sapiente blanditiis.
+          </p>
+        </section>
+      </section>
+
+      <!--    SERVICES Each service is an article with an inner header   -->
+      <section id="services" class="services-section">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+          <article class="svc-card svc-large">
+            <img
+              src="assets/images/digital.jpg"
+              alt="Analytics shown on a laptop screen"
+            />
+            <header class="svc-header">
+              <h3>Digital Transformation</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="outline-btn">Digital Plans &#9658;</a>
+          </article>
+          <article class="svc-card svc-large">
+            <img
+              src="assets/images/marketing.jpg"
+              alt="Phone showing YouTube logo"
+            />
+            <header class="svc-header">
+              <h3>Marketing</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="outline-btn">Marketing Plans &#9658;</a>
+          </article>
+          <article class="svc-card svc-small">
+            <img
+              src="assets/images/video.jpg"
+              alt="Smartphone beside a notebook"
+            />
+            <header class="svc-header">
+              <h3>Video Production</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="outline-btn">Video Plans &#9658;</a>
+          </article>
+          <article class="svc-card svc-small">
+            <img
+              src="assets/images/web.jpg"
+              alt="Newspaper boxes on a sidewalk"
+            />
+            <header class="svc-header">
+              <h3>Web Development</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="outline-btn">Web Plans &#9658;</a>
+          </article>
+          <article class="svc-card svc-small">
+            <img
+              src="assets/images/print.jpg"
+              alt="Printed documents stacked on a desk"
+            />
+            <header class="svc-header">
+              <h3>Print</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="outline-btn">Print Plans &#9658;</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- VISION cite tag for the company attribution   -->
+      <section class="vision-band">
+        <div class="vision-box">
+          <h2>Our Vision</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <cite class="vision-credit">— Three Star Media</cite>
+          <a href="#" class="action-btn">Learn More &#9658;</a>
+        </div>
+      </section>
+
+      <!-- TEAM article > header pattern for member info   -->
+      <section id="team" class="team-section">
+        <h2>Our Team</h2>
+        <div class="team-cards">
+          <article class="member">
+            <img src="assets/images/john.jpg" alt="John Doe" />
+            <div class="member-body">
+              <header class="member-header">
+                <h3>John Doe</h3>
+                <h4>CEO &amp; Co-owner</h4>
+              </header>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </article>
+          <!-- member-alt flips image to the right side -->
+          <article class="member member-alt">
+            <img src="assets/images/bob.jpg" alt="Bob Rite" />
+            <div class="member-body">
+              <header class="member-header">
+                <h3>Bob Rite</h3>
+                <h4>CFO &amp; Co-owner</h4>
+              </header>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!--    CONTACT   Three sibling sections — no grouping wrapper   Each block is independently structured   -->
+      <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <div class="contact-grid">
+          <!-- Section 1: message form -->
+          <section class="contact-form" aria-label="Contact form">
+            <h3>Send us a message</h3>
+            <form action="#" method="post">
+              <div class="field">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="field">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="field">
+                <label for="msg">Message</label>
+                <textarea id="msg" name="msg" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="action-btn">Send &#9658;</button>
+            </form>
+          </section>
+          <!-- Section 2: embedded map -->
+          <section class="contact-map" aria-label="Office location map">
+            <h3>Find Us</h3>
+            <iframe
+              src="https://maps.google.com/maps?q=Algonquin%20College&t=&z=14&ie=UTF8&iwloc=&output=embed"
+              title="Algonquin College on Google Maps"
+              allowfullscreen
+            >
+            </iframe>
+          </section>
+          <!-- Section 3: business hours table -->
+          <section class="contact-hours" aria-label="Business hours">
+            <h3>Hours of Operation</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Day</th>
+                  <th scope="col">Hours</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Monday &ndash; Friday</td>
+                  <td>9 AM &ndash; 6 PM</td>
+                </tr>
+                <tr>
+                  <td>Saturday &ndash; Sunday</td>
+                  <td>Closed</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </div>
+      </section>
+    </main>
+    <!--  FOOTER address wraps copyright and attribution   -->
+    <footer class="site-footer">
+      <address class="footer-info">
+        <p>&copy; Three Star Media, 2020. All rights reserved.</p>
+        <p>
+          Images sourced from
+          <a
+            href="https://unsplash.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Unsplash</a
+          >
+        </p>
+      </address>
+    </footer>
+  </body>
+</html>
